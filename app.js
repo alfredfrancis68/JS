@@ -57,7 +57,7 @@ let age3 = 21
 console.log(Name3.toUpperCase())
     //console.log(age3.)
 
-let Name3 = "Alfred"
-let age3 = 21
-console.log(Name3.toUpperCase())
-console.log(age3.)
+// let Name3 = "Alfred"
+// let age3 = 21
+// console.log(Name3.toUpperCase())
+// console.log(age3.)
