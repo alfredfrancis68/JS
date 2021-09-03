@@ -121,43 +121,47 @@
 //---------------------------------------
 
 //COMPARISON OPERATORS
-const a = 2
+// const a = 2
 
-const b = 3
+// const b = 3
 
-const c = 10
+// const c = 10
 
-console.log('a>b', a > b)
-console.log('a<b', a < b)
-console.log('a==c', a == c)
-console.log('a>=b', a >= b)
-console.log('a>=c', a >= c)
+// console.log('a>b', a > b)
+// console.log('a<b', a < b)
+// console.log('a==c', a == c)
+// console.log('a>=b', a >= b)
+// console.log('a>=c', a >= c)
 
-console.log('--------------------')
+// console.log('--------------------')
 
-//--------------------------------
+// //--------------------------------
 
-const e = 11
+// const e = 11
 
-const f = '11'
-console.log(e == f)
-
-
-console.log('---------------------')
-
-const g = 'alfred '
-const h = 'Alfred'
-
-console.log(g == h)
-
-console.log('---------------------')
-
-const i = 23
-const j = '23'
-
-console.log(i == j)
-
-console.log('-----------------------')
+// const f = '11'
+// console.log(e == f)
 
 
-console.log(true && false)
+// console.log('---------------------')
+
+// const g = 'alfred '
+// const h = 'Alfred'
+
+// console.log(g == h)
+
+// console.log('---------------------')
+
+// const i = 23
+// const j = '23'
+
+// console.log(i == j)
+
+// console.log('-----------------------')
+
+
+// console.log(true && false)
+
+
+
+//  LOGICAL OPERATORS
