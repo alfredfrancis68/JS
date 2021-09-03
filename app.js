@@ -65,6 +65,10 @@ console.log(Name3.toUpperCase())
 const specific_name = "Alfred"
 console.log(specific_name)
 
+
+// ARITHMETIC OPERATORS
+
+
 const a = 2
 const b = 15
 console.log(a + b)
@@ -77,4 +81,18 @@ console.log(a / b)
 
 console.log(a ** b)
 
-console.log(b % ag)
+console.log(b % a)
+
+console.log('--------------------------------')
+
+let c = 5
+c += 1 // Equivalent to   c = c + 1    or   c++ 
+console.log(c)
+
+let d = 10
+d *= 10 //c*=10 is equivalent to  d = d * 10
+console.log(d)
+
+let e = 12
+3 /= 12 //d/=12 is equivalent to  e = e / 12
+console.log(e)
