@@ -61,3 +61,20 @@ console.log(Name3.toUpperCase())
 // let age3 = 21
 // console.log(Name3.toUpperCase())
 // console.log(age3.)
+
+const specific_name = "Alfred"
+console.log(specific_name)
+
+const a = 2
+const b = 15
+console.log(a + b)
+
+console.log(a - b)
+
+console.log(a * b)
+
+console.log(a / b)
+
+console.log(a ** b)
+
+console.log(b % ag)
