@@ -166,26 +166,71 @@
 
 //  LOGICAL OPERATORS
 
-const a = 2
-const b = 3
+// const a = 2
+// const b = 3
 
-console.log('a==b', a == b)
-console.log('a!=b', a != b) //NOT operator
+// console.log('a==b', a == b)
+// console.log('a!=b', a != b) //NOT operator
 
-console.log('Truth table for  AND OPERATOR')
+// console.log('Truth table for  AND OPERATOR')
 
-console.log('false&&false', false && false)
-console.log('false&&true', false && true)
-console.log('true&&false', true && false)
-console.log('true && true', true && true)
+// console.log('false&&false', false && false)
+// console.log('false&&true', false && true)
+// console.log('true&&false', true && false)
+// console.log('true && true', true && true)
 
 
-console.log('Truth table for  OR OPERATOR')
+// console.log('Truth table for  OR OPERATOR')
 
-console.log('false||false', false || false)
-console.log('false||true', false || true)
-console.log('true||false', true || false)
-console.log('true || true', true || true)
+// console.log('false||false', false || false)
+// console.log('false||true', false || true)
+// console.log('true||false', true || false)
+// console.log('true || true', true || true)
 
-const c = 10
-console.log(c > a && c < b)
+// const c = 10
+// console.log(c > a && c < b)
+
+// console.log('-------------------------------------------')
+
+// CONDITIONAL STATEMENTS
+
+// checks whether the number iseven or odd
+
+const a = 99
+
+if (a % 2 === 0) {
+    console.log("Number is even")
+} else {
+    console.log("Number is odd")
+}
+
+console.log('---------------------------------')
+
+const b = '99'
+if (typeof b === 'number') {
+    if (b % 2 === 0) {
+        console.log("Number is even")
+    } else {
+        console.log("Not a Number ")
+    }
+} else {
+    console.log("Not a Number ")
+}
+
+console.log('---------------------------------')
+
+const c = 0
+if (typeof c === 'number') {
+    if (c === 0) {
+        console.log('Number is zero')
+    }
+    if (c % 2 === 0) {
+        console.log("Number is even")
+    } else {
+        console.log("Number is odd")
+    }
+} else {
+    console.log("Not a Number ")
+}
+
+console.log('----------------------------------------')
