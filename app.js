@@ -165,3 +165,27 @@
 
 
 //  LOGICAL OPERATORS
+
+const a = 2
+const b = 3
+
+console.log('a==b', a == b)
+console.log('a!=b', a != b) //NOT operator
+
+console.log('Truth table for  AND OPERATOR')
+
+console.log('false&&false', false && false)
+console.log('false&&true', false && true)
+console.log('true&&false', true && false)
+console.log('true && true', true && true)
+
+
+console.log('Truth table for  OR OPERATOR')
+
+console.log('false||false', false || false)
+console.log('false||true', false || true)
+console.log('true||false', true || false)
+console.log('true || true', true || true)
+
+const c = 10
+console.log(c > a && c < b)
