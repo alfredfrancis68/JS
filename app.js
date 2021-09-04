@@ -13,8 +13,8 @@
 // const element = document.querySelector('.heading')
 // console.log(element)
 
-const element = document.querySelectorAll('.heading')
-console.log(element)
+// const element = document.querySelectorAll('.heading')
+// console.log(element)
 
 // const element = document.querySelector('.heading')
 // console.log(typeof element)
