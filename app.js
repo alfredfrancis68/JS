@@ -1,31 +1,28 @@
+// const button = document.querySelector('button')
+// const button = document.querySelector('#selectme')
+// button.addEventListener('click')
+// console.log(button, element)
+
+// const button = document.querySelector('button')
 // const element = document.querySelector('#selectme')
-// console.log(element)
+// button.addEventListener('click', () => {
+//     console.log('you clicked me')
+// })
 
-// element.innerHTML = "This is from JS"
-// console.log(element)
-
-
+// const button = document.querySelector('button')
 // const element = document.querySelector('#selectme')
-// element.innerHTML = "This is from JS"
-// element.style.color = "cyan"
-// element.style.fontSize = "40px"
-// element.style = "display:none" // For  Hiding  purposes
-// console.log(element)
+// button.addEventListener('click', () => {
+//     element.style = "background:aqua"
+// })
 
+// const button = document.querySelector('button')
 // const element = document.querySelector('#selectme')
-// console.log(element.classList)
-// element.classList.add('five')
-// console.log(element.classList)
-// element.classList.remove('one')
-// console.log(element.classList)
+// button.addEventListener('click', () => {
+//     element.classList.toggle('aqua')     // toggle is a proper method.
+// })
 
-// const element = document.querySelector('#selectme')
-// const body = document.querySelector('body')
-// console.log(body)
-// console.log(body.classList.toggle('dark'))
-
-// const element = document.querySelector('#selectme')
-// const value = document.classList.contains('one')
-// console.log(value)
-
-// const element = document.querySelector('#selectme')
+// const button = document.querySelector('button')
+// const element = document.querySelector('body')
+// button.addEventListener('click', () => {
+//     element.classList.toggle('dark')
+// })
