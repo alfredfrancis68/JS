@@ -196,41 +196,41 @@
 
 // checks whether the number iseven or odd
 
-const a = 99
+// const a = 99
 
-if (a % 2 === 0) {
-    console.log("Number is even")
-} else {
-    console.log("Number is odd")
-}
+// if (a % 2 === 0) {
+//     console.log("Number is even")
+// } else {
+//     console.log("Number is odd")
+// }
 
-console.log('---------------------------------')
+// console.log('---------------------------------')
 
-const b = '99'
-if (typeof b === 'number') {
-    if (b % 2 === 0) {
-        console.log("Number is even")
-    } else {
-        console.log("Not a Number ")
-    }
-} else {
-    console.log("Not a Number ")
-}
+// const b = '99'
+// if (typeof b === 'number') {
+//     if (b % 2 === 0) {
+//         console.log("Number is even")
+//     } else {
+//         console.log("Not a Number ")
+//     }
+// } else {
+//     console.log("Not a Number ")
+// }
 
-console.log('---------------------------------')
+// console.log('---------------------------------')
 
-const c = 0
-if (typeof c === 'number') {
-    if (c === 0) {
-        console.log('Number is zero')
-    }
-    if (c % 2 === 0) {
-        console.log("Number is even")
-    } else {
-        console.log("Number is odd")
-    }
-} else {
-    console.log("Not a Number ")
-}
+// const c = 0
+// if (typeof c === 'number') {
+//     if (c === 0) {
+//         console.log('Number is zero')
+//     }
+//     if (c % 2 === 0) {
+//         console.log("Number is even")
+//     } else {
+//         console.log("Number is odd")
+//     }
+// } else {
+//     console.log("Not a Number ")
+// }
 
-console.log('----------------------------------------')
+// console.log('----------------------------------------')
