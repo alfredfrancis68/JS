@@ -18,7 +18,7 @@
 // const button = document.querySelector('button')
 // const element = document.querySelector('#selectme')
 // button.addEventListener('click', () => {
-//     element.classList.toggle('aqua')     // toggle is a proper method.
+//     element.classList.toggle('aqua') // toggle is a proper method.
 // })
 
 // const button = document.querySelector('button')
