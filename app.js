@@ -1,40 +1,31 @@
-// const element = document.getElementById('selectme')
-// console.log(typeof element)
-
-// const element = document.getElementsByClassName('heading')
+// const element = document.querySelector('#selectme')
 // console.log(element)
 
-// const element = document.getElementsByTagName('h2')
+// element.innerHTML = "This is from JS"
 // console.log(element)
 
-// const element = document.querySelector('div#selectme')
+
+// const element = document.querySelector('#selectme')
+// element.innerHTML = "This is from JS"
+// element.style.color = "cyan"
+// element.style.fontSize = "40px"
+// element.style = "display:none" // For  Hiding  purposes
 // console.log(element)
 
-// const element = document.querySelector('.heading')
-// console.log(element)
+// const element = document.querySelector('#selectme')
+// console.log(element.classList)
+// element.classList.add('five')
+// console.log(element.classList)
+// element.classList.remove('one')
+// console.log(element.classList)
 
-// const element = document.querySelectorAll('.heading')
-// console.log(element)
+// const element = document.querySelector('#selectme')
+// const body = document.querySelector('body')
+// console.log(body)
+// console.log(body.classList.toggle('dark'))
 
-// const element = document.querySelector('.heading')
-// console.log(typeof element)
+// const element = document.querySelector('#selectme')
+// const value = document.classList.contains('one')
+// console.log(value)
 
-
-//console.log('-----------------------------------------------------')
-
-
-// const element = document.getElementById("selectme");
-
-// const div = document.getElementsByTagName("div");
-
-// const element = document.getElementById("selectMe");
-
-// const elementClass = document.getElementsByClassName("heading");
-
-// const elementTag = document.getElementsByTagName("h2");
-
-// const elementSelector = document.querySelector(".heading");
-
-// const elementSelectorAll = document.querySelectorAll(".heading");
-
-// console.log(elementSelectorAll);
+// const element = document.querySelector('#selectme')
