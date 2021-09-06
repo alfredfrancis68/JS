@@ -1,64 +1,125 @@
-// const rock = document.querySelector('#rock')
-// console.log(rock)
-// const rock = document.querySelector('#paper')
-// console.log(paper)
-// const rock = document.querySelector('#scissor')
-// console.log(scissor)
+const rock = document.querySelector('#rock')
+console.log(rock)
+
+const rock = document.querySelector('#paper')
+console.log(paper)
+
+const rock = document.querySelector('#scissor')
+console.log(scissor)
 
 
 
 
-// function logName(Name = "Alfred Francis", age = 18) {
-//     console.log(Name + ", you are " + age)
+
+// const handler = (action) => {
+//     console.log("You clicked" + action)
+// }
+// handler('rock')
+//     // rock.addEventListener('click', handler('rock'))
+//     // rock.addEventListener('click', handler('rock'))
+//     // paper.addEventListener('click', handler('paper'))
+//     // scissor.addEventListener('click', handler('scissor'))
+
+
+
+
+
+// const handler = (action) => {
+//         console.log("You clicked" + action)
+//     }
+//     // handler('rock')
+// rock.addEventListener('click', handler('rock'))
+//     // paper.addEventListener('click', handler('paper'))
+//     // scissor.addEventListener('click', handler('scissor'))
+
+
+
+
+
+
+// const handler = (action) => {
+//     console.log("You clicked" + action)
 // }
 
-// const add = function(a = 0, b = 0) {
-//     return a + b
-
-// }
-// console.log(add (12, 23 ))
+// rock.addEventListener('click', () => {
+//             handler('rock')
+//         }
 
 
 
-
-// function logName(Name = "Alfred Francis", age = 18) {
-//     console.log(Name + ", you are " + age)
+// const handler = (action) => {
+//     console.log(action)
 // }
 
-// const add = (a = 0, b = 0) => {
-//     return a + b
-
-// }
-// console.log(add(12, 23))
+// rock.addEventListener('click', handler)
+// paper.addEventListener('click', handler)
+// scissor.addEventListener('click', handler)
 
 
 
 
-// console.log(add(12, 23))
-
-// function(a = 0, b = 0) {
-//     return a + b
-
-// }
-
-
-
-// console.log(add(12, 23))
-
-// const add = function(a = 0, b = 0) {
-//     return a + b
-
+// const handler = (event) => {
+//     console.log(event.target)
+//     const action = event.id
+//     if (action == 'rock') {
+//         console.log("Rock crushes Scissor")
+//     } else if (action == 'paper') {
+//         consolelog("Paper traps Rock")
+//     } else if (action == 'scissor') {
+//         consolelog("Scissor cuts paper")
+//     } else {
+//         consolelog("Click on something")
+//     }
 // }
 
+// rock.addEventListener('click', handler)
+// paper.addEventListener('click', handler)
+// scissor.addEventListener('click', handler)
 
 
 
-function logName(Name = "Alfred Francis", age = 18) {
-    console.log(Name + ", you are " + age)
+
+
+// const board = document.querySelector("#board")
+// const handler = (e) => {
+//     const action = e.target.id
+//     if (action === 'rock') {
+//         board.innerHTML = "Rock crushes scissors"
+//     } else if (action === 'paper') {
+//         board.innerHTML = "Paper traps Rock"
+//     } else if (action === 'scissor') {
+//         board.innerHTML = "Scissor cuts paper"
+//     } else {
+//         board.innerHTML = "Click something"
+//     }
+// }
+
+
+
+// rock.addEventListener('click', handler)
+// paper.addEventListener('click', handler)
+// scissor.addEventListener('click', handler)
+
+
+
+
+
+const board = document.querySelector("#board")
+const handler = (e) => {
+    const action = e.target.id
+    if (action === 'rock') {
+        board.innerHTML = "Rock crushes scissors"
+    } else if (action === 'paper') {
+        board.innerHTML = "Paper traps Rock"
+    } else if (action === 'scissor') {
+        board.innerHTML = "Scissor cuts paper"
+    } else {
+        board.innerHTML = "Click something"
+    }
 }
 
-const add = function(a = 0, b = 0) => {
-    return a + b
 
-}
-console.log(add(12, 23))
+
+rock.addEventListener('click', handler)
+paper.addEventListener('click', handler)
+scissor.addEventListener('click', handler)
