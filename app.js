@@ -62,23 +62,24 @@
 
 // console.log(result)
 
+
+
+
 // function logName(Name = "Alfred Francis", age = 18) {
 //     console.log(Name + ", you are " + age)
 // }
-
-
-
 // function add(a = 0, b = 0) {
 //     if (action == 'add')
 // }
 // const result = add()
 
 // console.log(result)
+
+
+
 // function logName(Name = "Alfred Francis", age = 18) {
 //     console.log(Name + ", you are " + age)
 // }
-
-
 
 // function add(a = 0, b = 0, action = 'add') {
 //     if (action == 'add')
