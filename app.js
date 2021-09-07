@@ -1,68 +1,148 @@
-//     FOR LOOP  -----------------------------------------
+// const balls = document.querySelectorAll('.ball')
+//     // const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// // balls.map(e => {
+// //     console.log(e)
+// // })
+// const arr = [1, 2, 3, 4, 5]
+// console.log(arr)
 
 
-// let i
-// for (i = 1; i <= 1; i++) {
-//     console.log('iteration' + i)
+
+
+// const balls = document.querySelectorAll('.ball')
+//     // const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// arr.push(6)
+// console.log(arr)
+
+
+
+
+
+// const balls = document.querySelectorAll('.ball')
+//     // const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// console.log(arr[0])
+
+
+
+
+// const balls = document.querySelectorAll('.ball')
+//     // const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// while (arr.length < 15) {
+//     arr.push("Iteration")
 // }
-
-
-
-// for (var i = 1; i <= 10; i++) {
-//     console.log("Iteration" + i)
-// }
-// console.log(i)
-
-
-
-// for (var i = 1; i <= 10; i++) {
-//     age = "19"
-//     console.log("Iteration" + i)
-// }
-// console.log(i)
+// console.log(arr.length)
 
 
 
 
-// for (var i = 1; i <= 10; i++) {
-//     var age = "19"
-//     console.log("Iteration" + i)
-// }
-// console.log(age)
+//   PUSH METHOD
+
+
+// const balls = document.querySelectorAll('.ball')
+//     // const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// const added = arr.push(6)
+// console.log(added)
 
 
 
 
-// const temp = () => {
-//     var dontknow = "dontknow"
-// }
-// console.log(dontknow)
+//  INCLUDES METHOD
+
+// const balls = document.querySelectorAll('.ball')
+//     // const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// const added = arr.includes(1000)
+// console.log(added)
 
 
 
 
-// const temp = () => {
-//     var dontknow = "dontknow"
-// }
-// temp()
-// console.log(dontknow)
+//INDEXOF  METHOD
+
+// const balls = document.querySelectorAll('.ball')
+//     // const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// const added = arr.indexOf(1)
+// console.log(added)
+
+
+
+//UNSHIFT  METHOD
+// const balls = document.querySelectorAll('.ball')
+//     // const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// const added = arr.unshift(1)
+// console.log(added)
 
 
 
 
-// function temp = () => {
-//     var dontknow = "dontknow"
-// }
-// console.log(dontknow)
+//SHIFT  METHOD
+
+// const balls = document.querySelectorAll('.ball')
+//     //const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// arr.shift(1)
+// console.log(added)
 
 
 
-//   WHILE LOOP ------------------------------------------
+
+//MULTIPLE SHIFT  METHOD
+
+// const balls = document.querySelectorAll('.ball')
+// const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// arr.shift(1)
+// arr.shift(1)
+// console.log(arr)
 
 
-// let iteration = 1
 
-// while (iteration < 10) {
-//     console.log(iteration)
-//     iteration++
-// }
+//SPLICE  METHOD
+// const balls = document.querySelectorAll('.ball')
+// const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// arr.splice(2, 1)
+// console.log(arr)
+
+
+
+
+//FOREACH  METHOD
+// const balls = document.querySelectorAll('.ball')
+//     // const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// //for (var i = 0; i < arr.length; i++) {
+// //  console.log(arr(i))
+// //}
+// arr.forEach(() => {
+//     console.log('iteration')
+// })
+
+
+
+
+// const balls = document.querySelectorAll('.ball')
+//     // const balls = document.getElementsByClassName('ball')
+// const body = document.querySelector('body')
+// const arr = [1, 2, 3, 4, 5]
+// arr.forEach((element, iteration) => {
+//     console.log(iteration, iteration)
+// })
