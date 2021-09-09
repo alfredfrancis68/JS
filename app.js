@@ -1,63 +1,75 @@
-//console.log('Hey this is my first piece of JS code !!! YAY')
+console.log("MERGED CLASS 1 ES6");
 
-//console.log('123456878')
+var arr = [1, 2, 3, 4];
+console.log(arr[2]);
 
-//console.log({ name: "Alfred" })
+var [one, two, three, four, five] = arr; //ES6 Destructuring
+console.log(three);
+console.log(four);
+console.log(five);
 
-//console.log(true)
+function getscores() {
+    return [90, 100];
+}
 
-//console.log(false)
+let [x, y, z] = getscores();
+console.log(x);
+console.log(y);
+console.log(z);
 
-//console.log(false, 1234456)
+const obj = {
+    fullname: "Nikhil Agarwal",
+    email: "nikhilagarwaliitkgp@gmail.com",
+    age: 20,
+};
 
-//console.log(true, 23453, 'string', { name: "ALfred" })
+console.log(obj.email);
 
-//console.warn('This is a Warning')
+let { dum, age, email, fullname } = obj;
+console.log(fullname);
+console.log(dum);
 
-//console.error('This is an error')
+let person = {
+    firstname: "Nikhil",
+    lastname: "Agarwal",
+    age1: 20,
+    middlename: "DNA",
+};
+let { age1, firstname, lastname, middlename = "" } = person;
+console.log(age1);
+console.log(firstname);
+console.log(lastname);
+console.log(middlename);
 
-// Data types in JS
+// function add(x, y) {
+//     return x+y;
+// }
+// console.log(add(10, 20));
 
-//Primitive datatype
-var Name = "Alfred Francis"
-Name = "Alfred"
-console.log(Name)
+// let add = function(x,y) {
+//     return x+y;
+// }
+// console.log(add(10,20))
 
-let age = 19;
-console.log(age)
-
-let age1 = 123454667;
-console.log(age1)
-
-let age2 = 213.34556;
-let Name2 = 'asdfgkhkjrf';
-console.log(typeof Name2)
-
-let brand = null
-console.log(typeof brand)
+let add = (x, y) => {
+    return x + y;
+};
+console.log(add(10, 20));
 
 
-//Non-Primitive datatype
-
-let arr = [1, 2, 3, 4, 5]
-console.log(arr)
-
-let arr1 = [1, 2, 3, 4, 5]
-arr1.push("value")
-arr1.push(false)
-arr1.unshift(false)
-arr1.unshift(021)
-console.log(arr1)
-console.log(typeof arr1)
-
-//  Coercion in JS
-
-let Name3 = "Alfred"
-let age3 = 21
-console.log(Name3.toUpperCase())
-    //console.log(age3.)
-
-let Name3 = "Alfred"
-let age3 = 21
-console.log(Name3.toUpperCase())
-console.log(age3.)
+const counter = {
+    count: 1,
+    nikhil: function() {
+        return ++(this.count);
+    },
+    key: this,
+    agarwal: () => {
+        return --(this.count);
+    }
+}
+console.log(counter);
+console.log(counter.agarwal());
+console.log(counter.nikhil());
+console.log(counter.nikhil());
+console.log(counter.nikhil());
+console.log(counter);
