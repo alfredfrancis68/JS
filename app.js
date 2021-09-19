@@ -52,7 +52,7 @@
 // console.log(typeof arr);
 
 // Primitive Data
-let Name4 = "sdhhiuhi";
+let Name4 = "My Friends";
 console.log(Name4)
 console.log(typeof Name4);
 let isTrue = true;
@@ -62,9 +62,9 @@ let isFalse = false;
 
 let arr5 = [1, 2, 3, 4, 5];
 arr5.push("value");
-arr5.push(false);
+arr5.push(false); //  shifts the provided value to the first position.
 arr5.unshift(48357);
-arr5.unshift(true);
+arr5.unshift(true); //  shifts the provided value to the first position.
 console.log(arr5);
 console.log(typeof arr5);
 
