@@ -73,4 +73,4 @@ console.log(typeof arr5);
 let Name6 = "Pappa ";
 let age6 = 20;
 console.log(Name6.toUpperCase());
-console.log(age6.toString)
+console.log(age6.toString);
