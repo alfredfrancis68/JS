@@ -68,5 +68,9 @@ arr5.unshift(true); //  shifts the provided value to the first position.
 console.log(arr5);
 console.log(typeof arr5);
 
-
 //
+
+let Name6 = "Pappa ";
+let age6 = 20;
+console.log(Name6.toUpperCase());
+console.log(age6.toString)
