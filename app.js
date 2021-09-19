@@ -1,43 +1,72 @@
-console.log('Im Alfred Francis.');
+// console.log({ name: "ALfred Francis" });
 
-console.log({ name: "ALfred Francis" });
+// console.log(123456789);
+// console.log(true);
 
-console.log(123456789);
-console.log(true);
+// console.log(false);
 
-console.log(false);
+// console.log(false, 234243, 'string', { name: "Alfred" });
 
-console.log(false, 234243, 'string', { name: "Alfred" });
+// console.log(false, true, { name: "Alfred" }, "String");
 
-console.log(false, true, { name: "Alfred" }, "String");
+// console.warn("This is warning.");
 
-console.warn("This is warning.");
+// console.error("This is an error.")
 
-console.error("This is an error.")
+// console.log({
+//     name: "Alfred Fra-----------ncis",
+//     print: () => { 'Friends' }
+// })
 
-console.log({
-    name: "Alfred Fra-----------ncis",
-    print: () => { 'Friends' }
-})
 
-console.log({ name: "Francis." })
 
-console.log({ Name: "Alfred Francis." })
 
-console.log({ name: "Alfred Franacois." })
+// var Name = "Bob" //Declaration of variable
+// Name = "Christy"
+// Name = "Ann"
+// console.log(Name)
 
-console.log("Alfred Francis-------------")
 
-console.log({
-    name: "Albatroosssss"
-})
 
-console.log({
-    name: "Fernandes",
-    print: () => { 'hi' }
-})
+// let Name2 = "Aleena"; //Declaration of variable
+// Name2 = "Austin";
+// console.log(Name2);
 
-const val = {
-    name: "Alfred Francis",
-    print: () => { "hi" }
-}
+
+// let age = 20;
+// console.log(age);
+
+// let Age = 20;
+// console.log(typeof Age);
+// console.log(Age);
+
+
+// let Name3 = 'Alfred Francis'
+// console.log(Name3);
+
+
+// let arr = [12, 23, 34, 45, 45, 56, 7, 89]
+// arr.push(1234);
+// arr.unshift(false);
+// console.log(arr);
+// console.log(typeof arr);
+
+// Primitive Data
+let Name4 = "sdhhiuhi";
+console.log(Name4)
+console.log(typeof Name4);
+let isTrue = true;
+let isFalse = false;
+
+// Non primitive datatypes
+
+let arr5 = [1, 2, 3, 4, 5];
+arr5.push("value");
+arr5.push(false);
+arr5.unshift(48357);
+arr5.unshift(true);
+console.log(arr5);
+console.log(typeof arr5);
+
+
+//
