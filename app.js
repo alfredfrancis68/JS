@@ -10,5 +10,11 @@
 // console.log(element);
 
 
-const element = document.querySelectorAll('#selectme'); //QUERYSELECTOR
+
+const element = document.querySelector('.heading');
+const element1 = document.querySelector('#selectme'); //QUERYSELECTOR
+element.innerHTML = "This is from JS"
 console.log(element);
+console.log(typeof element);
+console.log(element1);
+console.log(typeof element1);
