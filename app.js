@@ -1,5 +1,6 @@
 const button = document.querySelector('button')
 const element = document.querySelector('#selectme')
+const body = document.querySelector('body')
     // console.log(button, element);
     // console.log(typeof button);
     // button.innerHTML = "Do not click me"
@@ -9,7 +10,11 @@ const element = document.querySelector('#selectme')
 // })
 
 button.addEventListener('click', () => {
-        element.classList.toggle('aqua')
+        element.classList.toggle('dark')
+    })
+    //DOM API and JS is used to create a life in this button via the button.
+button.addEventListener('click', () => {
+        body.classList.toggle('dark')
     })
     //DOM API and JS is used to create a life in this button via the button.
 
@@ -17,10 +22,33 @@ button.addEventListener('click', () => {
 
 button.addEventListener('click', () => {
         //element.classList.toggle('aqua)
-        if (button.classList.contains('aqua')) {
-            button.classList.remove('aqua')
+        if (button.classList.contains('dark')) {
+            button.classList.remove('dark')
         } else {
-            button.classList.add('aqua')
+            button.classList.add('dark')
         }
     })
     //DOM API and JS is used to create a life in this button via the button.
+
+
+
+button.addEventListener('click', () => {
+    //element.classList.toggle('aqua)
+    if (button.classList.contains('dark')) {
+        button.classList.remove('dark'), button.classList.remove('body')
+    } else {
+        button.classList.add('dark'), button.classList.add('body')
+    }
+
+    //DOM API and JS is used to create a life in this button via the button.
+
+    body.addEventListener('click', () => {
+            //element.classList.toggle('aqua)
+            if (body.classList.contains('body')) {
+                body.classList.remove('body'), body.classList.remove('body')
+            } else {
+                body.classList.add('body'), body.classList.add('body')
+            }
+        })
+        //DOM API and JS is used to create a life in this button via the button.   
+})
