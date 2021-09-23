@@ -6,5 +6,9 @@
 // console.log(typeof element);
 
 
-const element = document.getElementsByTagName('h2'); //TAGNAME SELECTOR
+// const element = document.getElementsByTagName('h2'); //TAGNAME SELECTOR
+// console.log(element);
+
+
+const element = document.querySelectorAll('#selectme'); //QUERYSELECTOR
 console.log(element);
