@@ -9,18 +9,18 @@ const element = document.querySelector('#selectme')
 // })
 
 button.addEventListener('click', () => {
-    console.log('ThankYou for clicking me') //DOM API and JS is used to create a life in this button via the button.
-})
+        element.classList.toggle('aqua')
+    })
+    //DOM API and JS is used to create a life in this button via the button.
 
-button.addEventListener('dblclick', () => {
-    console.log('ThankYou for double clicking me') //DOM API and JS is used to create a life in this button via the button.
-})
 
 
 button.addEventListener('click', () => {
-    element.style = "background:aqua"
-})
-
-button.addEventListener('dblclick', () => {
-    element.style = "color:white"
-})
+        //element.classList.toggle('aqua)
+        if (button.classList.contains('aqua')) {
+            button.classList.remove('aqua')
+        } else {
+            button.classList.add('aqua')
+        }
+    })
+    //DOM API and JS is used to create a life in this button via the button.
