@@ -70,8 +70,108 @@ console.log(typeof arr5);
 
 //
 
-let Name6 = "Pappa ";
-let age6 = 20;
+let Name6 = "Pappa";
+let age6 = 55;
 console.log(Name6.toUpperCase());
 console.log(Name6.toLowerCase());
 console.log(age6.toString);
+
+
+const a = 2;
+const b = '2';
+console.log(a + "" + b);
+console.log(a + " " + b);
+
+
+const c = 2;
+const d = 4;
+console.log(c + d);
+
+
+const e = 23;
+const f = 34;
+const g = 12;
+
+console.log('a > b', a > b);
+console.log('a < b', a < b);
+console.log('a == b', a == b);
+console.log('a==c', a == c);
+console.log('a >= c', a > c);
+
+
+// const h = 12;
+// const i = '11';
+// console.log(h === i)
+// console.log(h == i)
+
+
+const h = 12;
+const i = '12';
+console.log(h == i); //h==i
+console.log(h === i); //h==i && number == string.
+
+
+
+const j = 100;
+const k = 200;
+const l = 159;
+
+console.log(l > j && l < k);
+
+// ----------------------------------
+
+const m = 0;
+if (typeof a == 'number') {
+    if (m % 2 == 0) {
+        console.log("Number is even");
+    } else {
+        console.log("Number is odd");
+    }
+} else {
+    console.log("Not a number")
+}
+
+// -----------------------------------
+
+const n = 433;
+if (typeof n == 'number') {
+    if (n % 2 == 0) {
+        console.log('Number is even');
+    } else {
+        console.log("Number is odd");
+    }
+} else {
+    console.log("Not a number");
+}
+
+
+
+const r = 0;
+if (typeof r === 'number') {
+    if (r === 0) {
+        console.log("Number is zero");
+    }
+    if (r % 2 === 0) {
+        console.log("Number is even");
+    } else {
+        console.log("Number is odd");
+    }
+} else {
+    console.log("Not a number");
+}
+
+
+
+const p = 0;
+if (typeof p === 'number') {
+    if (p === 0) {
+        console.log("Number is zero");
+    }
+    if (p % 2 === 0) {
+        console.log("Number is even");
+    } else {
+        console.log("Number is odd");
+    }
+} else {
+    console.error("Not a number");
+}
