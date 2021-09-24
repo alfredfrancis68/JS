@@ -1,59 +1,55 @@
-const button = document.querySelector('button')
-const element = document.querySelector('#selectme')
-const body = document.querySelector('body')
-    // console.log(button, element);
-    // console.log(typeof button);
-    // button.innerHTML = "Do not click me"
+// const rock = document.querySelector('#rock');
+// const paper = document.querySelector('#paper');
+// const scissors = document.querySelector('#scissors');
 
-// button.addEventListener('click', () => {
-//     console.log('you clicked me')
-// })
 
-button.addEventListener('click', () => {
-        element.classList.toggle('dark')
-    })
-    //DOM API and JS is used to create a life in this button via the button.
-button.addEventListener('click', () => {
-        body.classList.toggle('dark')
-    })
-    //DOM API and JS is used to create a life in this button via the button.
+function logName() {
+    console.log("Alfred Francis")
+}
+logName()
 
 
 
-button.addEventListener('click', () => {
-        //element.classList.toggle('aqua)
-        if (button.classList.contains('dark')) {
-            button.classList.remove('dark')
-        } else {
-            button.classList.add('dark')
-        }
-    })
-    //DOM API and JS is used to create a life in this button via the button.
+function logName(name) {
+    console.log(name)
+}
+logName("Alfred Francis")
 
 
 
-button.addEventListener('click', () => {
-    //element.classList.toggle('aqua)
-    if (button.classList.contains('dark')) {
-        button.classList.remove('dark'), button.classList.remove('body')
-    } else {
-        button.classList.add('dark'), button.classList.add('body')
-    }
-
-    //DOM API and JS is used to create a life in this button via the button.
-
-    body.addEventListener('click', () => {
-            //element.classList.toggle('aqua)
-            if (body.classList.contains('body')) {
-                body.classList.remove('body'), body.classList.remove('body')
-            } else {
-                body.classList.add('body'), body.classList.add('body')
-            }
-        })
-        //DOM API and JS is used to create a life in this button via the button.   
-})
+function logName(Name = "Alfred Francis", age = 21) {
+    console.log(Name + ", you are " + age + " years old my baby")
+}
+logName()
 
 
 
 
-console.log("THIS CODE IS PUSHED. SO , YOU CAN DELETE THIS CODE");
+function add(a = 0, b = 0) {
+    const sum = a + b
+    return sum
+        // console.log(a + b)
+}
+const result = add(125, 125);
+console.log(result)
+
+
+
+
+
+function add1(a = 100, b = 90) {
+    return a + b
+        // console.log(a + b)
+}
+const result1 = add1();
+console.log(result1)
+
+
+
+
+function sub(a = 100, b = 90) {
+    return a - b
+        // console.log(a + b)
+}
+const result2 = sub();
+console.log(result2)

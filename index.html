@@ -8,22 +8,24 @@
     <title>DOM</title>
     <script defer src="./app.js"></script>
     <style>
-        body {
-            background-color: #fff;
+        div.images img {
+            width: 200px;
         }
         
-        .dark {
-            background-color: #111;
+        div.images img:hover {
+            width: 200px;
+            cursor: pointer;
         }
     </style>
 </head>
 
 <body>
 
-    <div id="selectme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi nulla quas voluptatibus repellat eaque hic sed impedit nisi. Voluptate debitis, quis porro, distinctio molestias hic, totam necessitatibus aliquid temporibus animi minus quibusdam
-        magni dolor provident reprehenderit eius itaque? Amet!
+    <div class="images">
+        <img src="https://www.svgrepo.com/show/323925/rock.svg" alt="" />
+        <img src="https://www.svgrepo.com/show/318481/paper.svg" alt="" />
+        <img src="https://www.svgrepo.com/show/168499/scissors.svg" alt="" />
     </div>
-    <button>Click me</button>
 </body>
 
 </html>
