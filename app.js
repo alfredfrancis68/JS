@@ -3,18 +3,15 @@ const paper = document.querySelector('#paper')
 const scissor = document.querySelector('#scissor')
 const board = document.querySelector("#board")
 
-
-const handler = (e) => {
-    const action = e.target.id
-    if (action === 'rock') {
-        board.innerHTML = "Rock crushes scissor"
-    } else if (action === 'paper') {
-        board.innerHTML = "Paper traps rock"
-    } else if (action === 'scissor') {
+switch (action) {
+    case "rock":
+        board.innerHTML = "Rock crushes scissors"
+    case "paper":
+        board.innerHTML = "Paper traps Rock"
+    case "scissor":
         board.innerHTML = "Scissor cuts paper"
-    } else {
+    default:
         board.innerHTML = "Click something"
-    }
 }
 
 
