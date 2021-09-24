@@ -52,3 +52,8 @@ button.addEventListener('click', () => {
         })
         //DOM API and JS is used to create a life in this button via the button.   
 })
+
+
+
+
+console.log("THIS CODE IS PUSHED. SO , YOU CAN DELETE THIS CODE");
