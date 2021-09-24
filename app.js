@@ -1,14 +1,59 @@
-// const rock = document.querySelector('#rock');
-// const paper = document.querySelector('#paper');
-// const scissors = document.querySelector('#scissors');
+const rock = document.querySelector('#rock')
+const paper = document.querySelector('#paper')
+const scissor = document.querySelector('#scissor')
 
 
-function logName() {
-    console.log("Alfred Francis")
+// const handler = (event) => {
+//     const action = event.target.id
+//     if (action === 'rock') {
+//         console.log("Rock crushes scissors")
+//     } else if (action === 'paper') {
+//         console.log("Paper traps Rock")
+//     } else if (action === 'scissor') {
+//         console.log("Scissor cuts paper")
+//     } else {
+//         console.log("Click something")
+//     }
+// }
+
+
+// rock.addEventListener('click', handler)
+// paper.addEventListener('click', handler)
+// scissor.addEventListener('click', handler)
+
+const handler = (event) => {
+    console.log(event)
 }
-logName()
+
+rock.addEventListener('click', handler)
+paper.addEventListener('click', handler)
+scissor.addEventListener('click', handler)
 
 
+const handler = (action) => {
+    console.log("You clicked " + action)
+}
+
+
+rock.addEventListener('click', () => {
+    handler('rock')
+})
+paper.addEventListener('click', () => {
+    handler('paper')
+})
+scissor.addEventListener('click', function() {
+    handler('scissor')
+})
+
+
+
+rock.addEventListener('click', (action) => {
+        console.log("You clicked" + 'rock')
+    })
+    // handler('rock')
+
+paper.addEventListener('click', handler('paper'))
+scissor.addEventListener('click', handler('scissor'))
 
 function logName(name) {
     console.log(name)
@@ -18,38 +63,21 @@ logName("Alfred Francis")
 
 
 function logName(Name = "Alfred Francis", age = 21) {
-    console.log(Name + ", you are " + age + " years old my baby")
+    console.log(Name + ", you are " + age + " years old my boy")
 }
 logName()
 
 
 
-
-function add(a = 0, b = 0) {
-    const sum = a + b
-    return sum
-        // console.log(a + b)
-}
-const result = add(125, 125);
-console.log(result)
-
-
-
-
-
-function add1(a = 100, b = 90) {
+const add1 = function(a = 0, b = 0) {
     return a + b
-        // console.log(a + b)
 }
-const result1 = add1();
-console.log(result1)
+console.log(add1(125, 250))
 
 
 
+console.log(add(12, 34))
 
-function sub(a = 100, b = 90) {
-    return a - b
-        // console.log(a + b)
+function logName(a = 0, b = 0) {
+    return a + b;
 }
-const result2 = sub();
-console.log(result2)
