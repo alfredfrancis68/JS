@@ -1,17 +1,12 @@
-console.log("One")
-
-setTimeout(() => {
-    console.log('I ran out after 5 seconds')
-}, 5000)
-
-console.log("Three")
+for (var i = 1; i <= 10; i++) {
+    var age = "19"
+    console.log("Iteration" + i)
+}
 
 
+let iteration = 1
 
-
-console.log("One")
-setTimeout(() => {
-    console.log('Two')
-}, 6000)
-
-console.log("Three")
+while (iteration < 10) {
+    console.log(iteration)
+    iteration++
+}
