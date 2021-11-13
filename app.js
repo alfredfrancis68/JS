@@ -1,63 +1,48 @@
-//console.log('Hey this is my first piece of JS code !!! YAY')
-
-//console.log('123456878')
-
-//console.log({ name: "Alfred" })
-
-//console.log(true)
-
-//console.log(false)
-
-//console.log(false, 1234456)
-
-//console.log(true, 23453, 'string', { name: "ALfred" })
-
-//console.warn('This is a Warning')
-
-//console.error('This is an error')
-
-// Data types in JS
-
-//Primitive datatype
-var Name = "Alfred Francis"
-Name = "Alfred"
-console.log(Name)
-
-let age = 19;
-console.log(age)
-
-let age1 = 123454667;
-console.log(age1)
-
-let age2 = 213.34556;
-let Name2 = 'asdfgkhkjrf';
-console.log(typeof Name2)
-
-let brand = null
-console.log(typeof brand)
+console.log(" MERGED CLASS 2 ES6 ");
 
 
-//Non-Primitive datatype
+// PROMISE OBJECT
+// DIFFERENT STAGES ARE:-
 
-let arr = [1, 2, 3, 4, 5]
-console.log(arr)
+// PENDING
+// RESOLVE
+// REJECT  
 
-let arr1 = [1, 2, 3, 4, 5]
-arr1.push("value")
-arr1.push(false)
-arr1.unshift(false)
-arr1.unshift(021)
-console.log(arr1)
-console.log(typeof arr1)
+// let concert = true;
+// let attendConcert1 = new Promise(function(resolve, reject) {
+//     setTimeout(() => {
+//         if (concert) {
+//             resolve("BOB ATTENDED THE CONCERT");
+//         } else {
+//             reject("BOB FAILED TO ATTEND THE CONCERT");
+//         }
+//     }, 4000);
+// });
 
-//  Coercion in JS
+// console.log(attendConcert1);
 
-let Name3 = "Alfred"
-let age3 = 21
-console.log(Name3.toUpperCase())
-    //console.log(age3.)
 
-let Name3 = "Alfred"
-let age3 = 21
-console.log(Name3.toUpperCase())
-console.log(age3.)
+
+let concert1 = false;
+
+let attendConcert1 = new Promise(function(resolve, reject) {
+    setTimeout(() => {
+        if (concert1) {
+            resolve("BOB ATTENDED THE CONCERT."); //THEN is for both the RESOLVE and REJECT FUNCTION.
+        } else {
+            reject("BOB FAILED TO ATTEND THE CONCERT."); //CATCH is ONLY for REJECT FUNCTION.
+
+        }
+    }, 2000);
+});
+// console.log(attendConcert1);
+console.log("HI, I WON'T WAIT FOR ANYONE."); //Asynchronous way.
+console.log("HI ALL, HOWDY."); //Asynchronous way.
+console.log(attendConcert1);
+
+// attendConcert1.then((data) => console.log(data));
+// attendConcert1.catch((error) => console.log(error));
+
+attendConcert1.then((data) => console.log(data));
+attendConcert1.catch((error) => console.log(error));
+attendConcert1.then((data) => console.log(data)).catch((error) => console.log(error));
